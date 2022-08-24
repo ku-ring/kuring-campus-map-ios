@@ -22,9 +22,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "kuring-campus-map-ios",
-            dependencies: []),
-        .testTarget(
-            name: "kuring-campus-map-iosTests",
-            dependencies: ["kuring-campus-map-ios"]),
+            dependencies: ["SnapKit"]),
     ]
 )
