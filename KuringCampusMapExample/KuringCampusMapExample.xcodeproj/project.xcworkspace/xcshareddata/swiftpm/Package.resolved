@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/KU-Stacks/kuring-campus-map-ios",
       "state" : {
-        "revision" : "6ff2b9781f67e047855a13209db88e4e8d65bc98",
-        "version" : "1.0.4"
+        "branch" : "main",
+        "revision" : "c1e1d0ee689e59cbff39c0f6670ea756519d1cd2"
       }
     },
     {

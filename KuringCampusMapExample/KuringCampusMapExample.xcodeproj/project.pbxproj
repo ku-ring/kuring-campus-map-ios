@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B12672BF28B60D7D00C63ACC /* kuring-campus-map-ios in Frameworks */ = {isa = PBXBuildFile; productRef = B12672BE28B60D7D00C63ACC /* kuring-campus-map-ios */; };
+		B12672C828B6140D00C63ACC /* kuring-campus-map-ios in Frameworks */ = {isa = PBXBuildFile; productRef = B12672C728B6140D00C63ACC /* kuring-campus-map-ios */; };
 		B1B2ACC528B5535600540858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2ACC428B5535600540858 /* AppDelegate.swift */; };
 		B1B2ACC728B5535600540858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2ACC628B5535600540858 /* SceneDelegate.swift */; };
 		B1B2ACCE28B5535700540858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B2ACCD28B5535700540858 /* Assets.xcassets */; };
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12672BF28B60D7D00C63ACC /* kuring-campus-map-ios in Frameworks */,
+				B12672C828B6140D00C63ACC /* kuring-campus-map-ios in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			);
 			name = KuringCampusMapExample;
 			packageProductDependencies = (
-				B12672BE28B60D7D00C63ACC /* kuring-campus-map-ios */,
+				B12672C728B6140D00C63ACC /* kuring-campus-map-ios */,
 			);
 			productName = KuringCampusMapExample;
 			productReference = B1B2ACC128B5535600540858 /* KuringCampusMapExample.app */;
@@ -121,7 +121,7 @@
 			);
 			mainGroup = B1B2ACB828B5535600540858;
 			packageReferences = (
-				B12672BD28B60D7D00C63ACC /* XCRemoteSwiftPackageReference "kuring-campus-map-ios" */,
+				B12672C628B6140D00C63ACC /* XCRemoteSwiftPackageReference "kuring-campus-map-ios" */,
 			);
 			productRefGroup = B1B2ACC228B5535600540858 /* Products */;
 			projectDirPath = "";
@@ -358,20 +358,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B12672BD28B60D7D00C63ACC /* XCRemoteSwiftPackageReference "kuring-campus-map-ios" */ = {
+		B12672C628B6140D00C63ACC /* XCRemoteSwiftPackageReference "kuring-campus-map-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/KU-Stacks/kuring-campus-map-ios";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.4;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B12672BE28B60D7D00C63ACC /* kuring-campus-map-ios */ = {
+		B12672C728B6140D00C63ACC /* kuring-campus-map-ios */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B12672BD28B60D7D00C63ACC /* XCRemoteSwiftPackageReference "kuring-campus-map-ios" */;
+			package = B12672C628B6140D00C63ACC /* XCRemoteSwiftPackageReference "kuring-campus-map-ios" */;
 			productName = "kuring-campus-map-ios";
 		};
 /* End XCSwiftPackageProductDependency section */
