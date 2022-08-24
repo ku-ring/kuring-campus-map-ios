@@ -29,7 +29,7 @@ public struct CampusMap {
         case 인문학관_연구동 = "인문학관(연구동)" // 37.542763, 127.078153
         case 인문학관_강의동 = "인문학관(강의동)" // 37.542464, 127.078916
         case 제2학생회관 //37.541172, 127.077961
-        case 노천극장 // 37.541423, 127.077765
+        case 노천극장 // 37.541501, 127.077815
         case 홍예교 // 37.541699, 127.077325
         case 유석창박사의묘 // 37.540581, 127.078127
         case 국제학사 // 37.539819, 127.077310
@@ -61,11 +61,11 @@ public struct CampusMap {
         case 예술대학 // 37.542913, 127.072917
         case 수의과대학 // 37.539246, 127.074725
         case 와우도 // 37.540094, 127.076545
-        case 온실 // 37.544562, 127.073816
+        case 온실 // 37.544550, 127.073777
         case 황소상 // 37.543128, 127.076179
         case 일우헌 // 37.544856, 127.079519
         case 실내체육관 // 37.544466, 127.079780
-        case 상허기념박물관 // 37.543177, 127.075168
+        case 상허기념박물관 // 37.542373, 127.075595
         case 건대항쟁기립상 // 37.543819, 127.076423
     }
 }
@@ -91,7 +91,7 @@ extension CampusMap {
         CampusMap(title: .인문학관_강의동, latitudeValue: 37.542464, longitudeValue: 127.078916),
         
         CampusMap(title: .제2학생회관, latitudeValue: 37.541172, longitudeValue: 127.077961),
-        CampusMap(title: .노천극장, latitudeValue: 37.541423, longitudeValue: 127.075144),
+        CampusMap(title: .노천극장, latitudeValue: 37.541501, longitudeValue: 127.077815),
         CampusMap(title: .유석창박사의묘, latitudeValue: 37.540581, longitudeValue: 127.078127),
         CampusMap(title: .국제학사, latitudeValue: 37.539819, longitudeValue: 127.077310),
         CampusMap(title: .레이크홀, latitudeValue: 37.539424, longitudeValue: 127.077196),
@@ -128,12 +128,12 @@ extension CampusMap {
         
         CampusMap(title: .수의과대학, latitudeValue: 37.539246, longitudeValue: 127.074725),
         CampusMap(title: .와우도, latitudeValue: 37.540094, longitudeValue: 127.076545),
-        CampusMap(title: .온실, latitudeValue: 37.544562, longitudeValue: 37.544562),
+        CampusMap(title: .온실, latitudeValue: 37.544550, longitudeValue: 127.073777), // 37.544550, 127.073777
         CampusMap(title: .황소상, latitudeValue: 37.543128, longitudeValue: 127.076179),
         CampusMap(title: .일우헌, latitudeValue: 37.544856, longitudeValue: 127.079519),
         
         CampusMap(title: .실내체육관, latitudeValue: 37.544466, longitudeValue: 127.079780),
-        CampusMap(title: .실내체육관, latitudeValue: 37.543177, longitudeValue: 127.075168),
+        CampusMap(title: .상허기념박물관, latitudeValue: 37.542373, longitudeValue: 127.075595), // 37.542373, 127.075595
         CampusMap(title: .건대항쟁기립상, latitudeValue: 37.543819, longitudeValue: 127.076423),
     ]
 }
