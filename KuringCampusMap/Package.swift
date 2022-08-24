@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "kuring-campus-map-ios",
             targets: ["kuring-campus-map-ios"]),
+        platforms: [.iOS(.v14)]
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
