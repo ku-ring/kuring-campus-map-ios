@@ -1,5 +1,4 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/56182112/186367311-6e50bd5c-8662-4ae6-b01b-ef253fec358a.png" width="30%"/>
  <img src="https://user-images.githubusercontent.com/56182112/186366912-81106529-f66b-4d3f-9dc3-cbe79802baa6.png" width="30%"/>
  <img src="https://user-images.githubusercontent.com/56182112/186366951-78ddb815-e7e1-439a-a58d-7c0200dd2460.png" width="30%"/>
 </p>
